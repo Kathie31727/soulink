@@ -106,12 +106,12 @@
     },
     {
       "name": "lints",
-      "version": "4.0.0",
+      "version": "6.0.0",
       "dependencies": []
     },
     {
       "name": "flutter_lints",
-      "version": "4.0.0",
+      "version": "6.0.0",
       "dependencies": [
         "lints"
       ]
@@ -181,7 +181,7 @@
     },
     {
       "name": "url_launcher",
-      "version": "6.3.1",
+      "version": "6.3.2",
       "dependencies": [
         "flutter",
         "url_launcher_android",
@@ -202,7 +202,7 @@
     },
     {
       "name": "sqflite_common",
-      "version": "2.5.4+3",
+      "version": "2.5.5",
       "dependencies": [
         "meta",
         "path",
@@ -211,11 +211,14 @@
     },
     {
       "name": "sqflite",
-      "version": "2.3.3+1",
+      "version": "2.4.2",
       "dependencies": [
         "flutter",
         "path",
-        "sqflite_common"
+        "sqflite_android",
+        "sqflite_common",
+        "sqflite_darwin",
+        "sqflite_platform_interface"
       ]
     },
     {
@@ -330,7 +333,7 @@
     },
     {
       "name": "path_provider_foundation",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "dependencies": [
         "flutter",
         "path_provider_platform_interface"
@@ -338,7 +341,7 @@
     },
     {
       "name": "path_provider_android",
-      "version": "2.2.10",
+      "version": "2.2.17",
       "dependencies": [
         "flutter",
         "path_provider_platform_interface"
@@ -346,7 +349,7 @@
     },
     {
       "name": "path_provider",
-      "version": "2.1.4",
+      "version": "2.1.5",
       "dependencies": [
         "flutter",
         "path_provider_android",
@@ -358,14 +361,14 @@
     },
     {
       "name": "page_transition",
-      "version": "2.1.0",
+      "version": "2.2.1",
       "dependencies": [
         "flutter"
       ]
     },
     {
       "name": "json_path",
-      "version": "0.7.2",
+      "version": "0.7.6",
       "dependencies": [
         "iregexp",
         "maybe_just_nothing",
@@ -384,7 +387,7 @@
     },
     {
       "name": "google_fonts",
-      "version": "6.1.0",
+      "version": "6.2.1",
       "dependencies": [
         "crypto",
         "flutter",
@@ -401,7 +404,7 @@
     },
     {
       "name": "font_awesome_flutter",
-      "version": "10.7.0",
+      "version": "10.8.0",
       "dependencies": [
         "flutter"
       ]
@@ -424,7 +427,7 @@
     },
     {
       "name": "flutter_animate",
-      "version": "4.5.0",
+      "version": "4.5.2",
       "dependencies": [
         "flutter",
         "flutter_shaders"
@@ -706,6 +709,38 @@
       "name": "synchronized",
       "version": "3.4.0",
       "dependencies": []
+    },
+    {
+      "name": "sqflite_platform_interface",
+      "version": "2.4.0",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "platform",
+        "plugin_platform_interface",
+        "sqflite_common"
+      ]
+    },
+    {
+      "name": "sqflite_darwin",
+      "version": "2.4.2",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "path",
+        "sqflite_common",
+        "sqflite_platform_interface"
+      ]
+    },
+    {
+      "name": "sqflite_android",
+      "version": "2.4.1",
+      "dependencies": [
+        "flutter",
+        "path",
+        "sqflite_common",
+        "sqflite_platform_interface"
+      ]
     },
     {
       "name": "file",
